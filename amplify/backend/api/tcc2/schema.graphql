@@ -1,0 +1,6 @@
+type Tarefa @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  titulo: String!
+  infor: String!
+  IsComplete: Boolean!
+}
